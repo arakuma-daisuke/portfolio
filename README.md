@@ -20,3 +20,6 @@
 
 # なぜこのサービスを作りたいのか？
   - 外食しようと思ったが、何を食べるか、どこで食べるかを決め切れず時間がかかってしまう為
+
+# 画面遷移図の追加
+  https://www.figma.com/file/LUwtzOrYyrhryV81LhECV6/Untitled?node-id=0%3A1
