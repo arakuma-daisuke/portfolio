@@ -1,25 +1,24 @@
-# portfolio
-# サービス概要
-  - 外食したいけれど、どの店に行くか決めきれない人に
-  - おすすめの１店を提案する
-  - コンシェルジュ的なサービス
+# README
 
-# メインのターゲットユーザー 
-  - 優柔不断で決めるのが苦手な人
+This README would normally document whatever steps are necessary to get the
+application up and running.
 
-# ユーザーが抱える課題
-  - 外食をしたいが、候補が多く決めれ切れない人
-  - 選ぶのに時間がかかってしまう人
+Things you may want to cover:
 
-# 解決方法
-  - 地域、和食洋食などを入力する事で、おすすめの１店舗を紹介する
+* Ruby version
 
-# 実装予定の機能
-  - ユーザー登録機能(LINE登録)
-  - 地域、キーワードによる絞り込み
+* System dependencies
 
-# なぜこのサービスを作りたいのか？
-  - 外食しようと思ったが、何を食べるか、どこで食べるかを決め切れず時間がかかってしまう為
+* Configuration
 
-# 画面遷移図の追加
-  https://www.figma.com/file/LUwtzOrYyrhryV81LhECV6/Untitled?node-id=0%3A1
+* Database creation
+
+* Database initialization
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...
