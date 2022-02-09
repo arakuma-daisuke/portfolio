@@ -61,3 +61,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Line bot
 gem 'line-bot-api'
+gem 'dotenv-rails'
+gem 'google_places'
