@@ -65,13 +65,13 @@ require 'line/bot'
 
   def google_places(keyword)
     client = GooglePlaces::Client.new(ENV['GOOGLE_API_KEY']) # APIキーの確認
-    list = client.spots_by_query(keyword, language: 'ja') # キーワードで検索できる星３以上で日本語表記されてる店を探す  rating: '3以上 , detail: true 
+    list = client.spots_by_query(keyword, language: 'ja', detail: true) # キーワードで検索できる星３以上で日本語表記されてる店を探す  rating: '3以上 , detail: true 
     response = list.sample
-    text = ''
-      text <<
-      response[@name]
-    p text
-  end
+    message = {
+      type: 'text',
+      text: response[:url]
+    }
+  end 
 
 
   #  選択肢テンプレート作成 rakeで回す予定
